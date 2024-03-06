@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<style>
+			*{
+	    	margin:0px;
+	    	padding:0px;
+	    	}
+	    	#took{
+	    		width:1440px;
+	    		height:3641px;
+	    	}
+	    	#top{
+                background:url(img/图1底.png);
+                background-size:100% 100%;
+                height:450px;
+                width:100%;
+               /* border: solid 1px;;*/
+                }
+			h5{
+				position:absolute;
+				left:70px;
+				top:40px;
+
+			}
+		
+		   a{
+				position:absolute;
+				left:50px;
+				top:30px;
+				font-family: '宋体';
+				font-size: medium;
+				width:100px;
+			}
+			#left{
+				position:absolute;
+				top:150px;
+				height:500px;
+				left:100px;
+				width:600px;
+				/*border: solid 1px;*/
+			}
+			#left h1{
+				position:absolute;
+				left:30px;
+				width:450px;
+                height:150px;
+                font-family:Avenir-Heavy;
+                color:#0d1a26;
+                font-size:68px;
+                line-height:76px;
+	   			text-align: center;
+				
+			}
+			#left p{
+				position:relative;
+				top:130px;
+			}
+			#right{
+				position:relative;
+				top:60px;
+				left:700px;
+				height:100%;
+				width:50%;
+			}
+			#box{
+				height:888px;
+				width:1440px;
+				margin: auto;
+				/*border:solid 2px;*/
+				background: url(img/b.png);
+				background-size:100% 100%;
+			}
+		    #box h3{
+			position:relative;
+			top:150px;
+			font-family:PingFangSC-Semibold;
+			font-size:38px;
+			text-align: center;
+			color:white;
+		}
+		  
+		#picture{
+			position:relative;
+			top:250px;
+			left:50px;
+			/*height:303.35px;
+			width:212.86px;*/
+			float:left;
+			margin-left:170px;
+			/*position:relative;
+			top:200px;
+			height:70px;
+			width:70px;
+			border-radius: 50%;
+			border:solid 1px;
+			background: white;
+			float:left;
+            margin-left:20px;*/
+		}
+		#t1{
+			position:relative;
+			height:120px;
+			width:120px;
+			border-radius: 50%;
+			background: white;
+			float:left;
+            margin-left:100px;
+		}
+		/*#t1 image{
+		  position:relative;
+		  left:70px;
+		 
+		}*/
+		#language{
+			position:relative;
+			top:250px;
+			height:200px;
+			width:70%;
+			float:left;
+			margin-left:145px;
+			
+		}
+		#t2{
+			height:30px;
+			width:80px;
+			float:left;
+			margin-left:145px;
+		}
+		#language a{
+			 position:relative;
+		  margin:0;
+		  color:white;
+		  /*float:left;
+            margin-left:100px;*/
+		}
+		#middle{
+			background: url(img/图3底.png);
+			background-size:100% 100%;
+			height:1109px;
+			width:1440px;
+			
+		}
+		#middle h3{
+			position:relative;
+			top:100px;
+			font-family:PingFangSC-Semibold;
+			font-size:38px;
+			text-align: center;
+		}
+		#mean{
+			position:relative;
+			top:210px;
+			/*left:200px;*/
+			height:554px;
+			width:1152px;
+			margin:auto;
+			/*border:solid 1px;*/
+		}
+		#big{
+			position:absolute;
+			width:576px;
+			height: 554px;
+			/*border:solid 1px;*/
+			background:rgb(57,67,218);
+		}
+		#small{
+			position:relative;
+			width:50%;
+			float:right;
+			height: 100%;
+			background: white;
+			/*border:solid 1px;*/
+			
+		}
+		#big a{
+			position:relative;
+			top:40px;
+			left:40px;
+			font-family: '宋体';
+			font-size: large;
+			color:white;
+		}
+		#big p{
+			position:relative;
+			top:100px;
+			left:40px;
+			width:400px;
+			font-family: '宋体';
+			font-size: medium;
+			color:white;
+		}
+		#big button{
+			background: rgb(57,67,218);
+			position:relative;
+			top:300px;
+			left:15px;
+			color:white;
+			border-style: none;
+		}
+		#tall{
+			height:554px;
+			width:576px;	
+		}
+		
+		#tm{
+			position:absolute;
+			top:50px;
+			right:0px;
+			width:70%;
+			height:100px;
+			/*border:solid 1px;*/
+		}
+		#tm a{
+			position:relative;
+			top:0px;
+			left: 0px;
+		}
+		#tm p{
+			position:relative;
+			top:15px;
+		}
+		#tm button{
+			position:relative;
+			top:35px;
+			border-style: none;
+		}
+		#td{
+			position: relative;
+			top:60px;
+			height:0px;
+			border:solid 0.5px;
+			background: gray;
+			
+		}
+		#tr{
+			position:absolute;
+			top:200px;
+			left:0px;
+			width:70%;
+			height:100px;
+			/*border:solid 1px;*/
+		}
+		#tr a{
+			position:relative;
+			top:0px;
+			left: 30px;
+		}
+		#tr p{
+			position:relative;
+			top:15px;
+			left:30px
+		}
+		#tr button{
+			position:relative;
+			top:30px;
+			left:30px;
+			border-style: none;
+		}
+		#tt{
+			position: relative;
+			top:60px;
+			height:0px;
+			border:solid 0.5px;
+			background: gray;
+			
+		}
+		#to{
+			position:absolute;
+			top:350px;
+			right:0px;
+			width:70%;
+			height:100px;
+			/*border:solid 1px;*/
+		}
+		#to a{
+			position:relative;
+			top:0px;
+			left: 0px;
+		}
+		#to p{
+			position:relative;
+			top:15px;
+		}
+		#to button{
+			position:relative;
+			top:35px;
+			border-style: none;
+		}
+		#tg{
+			position: relative;
+			top:60px;
+			height:0px;
+			border:solid 0.5px;
+			background: gray;
+		}
+		#four{
+			height:400px;
+			width:100%;
+			/* border:solid 3px;*/
+		}
+		#yu{
+			position:relative;
+			height:400px;
+			width:70%;
+			left:160px;
+			float:left;
+            margin-left:100px;
+          /*  border:solid 3px;*/
+            
+            
+		}
+		#yu h2{
+			position: relative;
+			top:30px;
+			font-family:PingFangSC-Semibold;
+            font-size:38px;
+			text-align: center;
+			
+		}
+		#one{
+			position:relative;
+			top:130px;
+			height:80px;
+			width:200px;
+			/*left:100px;*/
+			float:left;
+            margin-left:110px;
+			/*border: solid 1px;*/
+		}
+		#we{
+			position:relative;
+			width:45%;
+			left:0px;
+		}
+		#da{
+			position:absolute;
+			width:70%;
+			left:100px;
+			height: 100%;
+			/*float:left;
+            margin-left:100px;s*/
+			/*border: solid 2px;*/
+		}
+		#da a{
+			position:relative;
+			top:0px;
+			left:0px;
+		}
+		#da p{
+			position:relative;
+			top:8px;
+		}
+		
+		
+		#five{
+			height:532px;
+    		width:1440px;
+    		background: black;
+		}
+    	.container{
+    		position:relative;
+    		top:50px;
+    		height:430px;
+    		width:100%;
+    		color:white;
+    	}
+		</style>
+		
+	</head>
+	<body>
+		<div id="took">
+		<div id="top">
+		<h5><image src="img/图形.png"/><a>Ant Design</a></h5>
+		
+		<div id="left">
+			<h1>Ant design</h1>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				一个服务于企业级产品的设计体系。带着"确定"和"自然"的设计理念，
+				通过模块化的解决方案，让产品设计更专注于"更好的用户体验"，
+				并能将经验沉淀下来，影响更多的人。</p>
+		</div>
+		<div id="right">
+		<image style="position:relative;
+				left:100px;height:500px;
+				width:500px;" src="img/a.png"/>
+		</div>
+		</div>
+		
+		
+		<div id="box">
+			<h3>设计语言</h3>
+		      <div id="picture">
+				<div id="t1"><image style="position:relative;left:34px;top:25px;" src="img/1.png"/></div>
+					<div id="t1"><image style="position:relative;left:34px;top:25px;" src="img/2.png"/></div>
+						<div id="t1"><image style="position:relative;left:34px;top:25px;" src="img/3.png"/></div>
+							<div id="t1"><image style="position:relative;left:34px;top:25px;" src="img/4.png"/></div>
+	          </div>
+	          <div id="language">
+	          	<div id="t2"><a>设计价值观Design Values</a></div>
+	          	<div id="t2"><a>视觉语言Visual Language</a></div>
+	          	<div id="t2"><a>可视化语言Visualisation Language</a></div>
+	          <div id="t2"><a>动效语言Animation Language</a></div>
+	          
+	          
+	          </div>
+	    </div>
+	    
+	    
+	    <div id="middle">
+	    	<h3>解决方案</h3>
+	    	<div id="mean">
+	    		<div id="big">
+	    		<a>Ant Design Components</a>
+	    		<p>
+	    			基于Ant Design设计语言，我们提供了-套开箱即用的高质量React组件，
+	    			用于开发和服务于企业级中后台产品，
+	    			除官方的React实现。还有Angular, Vue的实现
+	    		</p>
+	    		
+	    		<button onclick="window.location.href='../routeEdit/index.html'" type="button" id="add">Ant Design of React ></button></br></br>
+	    		
+	    	    <button onclick="window.location.href='../routeEdit/index.html'" type="button" id="add">Ant Design of Angular ></button>
+	    		</div>
+	    	    <div id="small">
+	    		<div id="tall">
+	    			<image style="position:absolute;
+			top:50px;
+			left:40px;
+			" src="img/solveimg1.png"/>
+	    			<div id="tm">
+	    				<a>Ant Design Pro</a>
+	    			<p>开箱即用的中台前端/设计解决方案</p>
+	    			<button onclick="window.location.href='../routeEdit/index.html'" type="button" id="add">learn more ></button>
+	    			<div id="td"></div>
+	    		</div>
+	    			
+	    		</div>
+	    		<div id="high">
+	    			<div id="tr">
+	    				<a>Ant Design Mobile</a>
+	    			<p>antd-mobile 是 Ant Design 的移动规范的React实现</p>
+	    			<button onclick="window.location.href='../routeEdit/index.html'" type="button" id="add">learn more ></button>
+	    			<div id="tt"></div> 
+	    			</div>
+	    			<image style="position:absolute;
+			        top:240px;
+			        right:40px;
+			" src="img/solveimg2.png"/>
+			
+	    		</div>
+	    		<div id="bottom"></div>
+	    				<image style="position:absolute;
+			top:370px;
+			left:40px;
+			" src="img/solveimg3.png"/>
+	    			<div id="to">
+	    				<a>AntV</a>
+	    			<p>简单，专业，拥有无限可能的数据可视化解决方案</p>
+	    			<button onclick="window.location.href='../routeEdit/index.html'" type="button" id="add">learn more ></button>
+	    			<div id="tg"></div>
+	    	</div>
+	    	</div>
+	    	</div>
+	    	</div>
+	    	
+	    	<div id="four">
+	    	<div id="yu">
+	    		<h2>工具&资料</h2>
+	    		<div id="one">
+	    			<div id="we"><image style="position:relative;float:left;"
+	    				 src="img/tool1.png"/></div>
+	    			<div id="da">
+	    				<a>Ant Design资源包</a>
+	    				<p>Ant Design资源包相关资源下载</p>
+	    			</div>
+	    		</div>
+	    		<div id="one">
+	    		    <div id="we"><image style="position:relative;float:left;"
+	    				 src="img/tool2.png"/></div>
+	    			<div id="da">
+	    				<a>Ant Library</a>
+	    				<p>一套精美得像视觉稿的Axure组件库，让交互稿美美"搭"</p>
+	    			</div>
+	    		</div>
+	    		<div id="one">
+	    			<div id="we"><image style="position:relative;float:left;"
+	    				 src="img/tool3.png"/></div>
+	    			<div id="da">
+	    				<a>Kitchen(敬请期待)</a>
+	    				<p>一个为设计师体校的Skrtch工具集，让你的设计秀色可餐</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+<div id="five">
+	    <div class="container">
+    <div style="text-align:center;height:40px;font-size:23px;"  class="col-lg-3 col-md-4 col-sm-6 ">Ant Design</div>
+    <div style="text-align:center;height:40px;font-size:23px;" class="col-lg-3 col-md-4 col-sm-6 ">相关资源</div>
+    <div style="text-align:center;height:40px;font-size:23px;" class="col-lg-3 col-md-4 col-sm-6 ">社区</div>
+    <div style="text-align:center;height:40px;font-size:23px;" class="col-lg-3 col-md-4 col-sm-6 "><image src="img/logo.png"/>蚂蚁体验云</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Github</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6">Scaffolds-脚手架市场</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6">更新记录</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Ant Design</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">AntDeign :蚂歡UI体采</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Ant Deign Mosbil</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">常园问器</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">AntV.蚂蚁数据可现化方室</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6">hrci-开发工民</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6">在线讨论(中文)</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Egg :企业联Node Web开发据架</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">NG ZORRO Are Deign of Angude</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Ant Motion -设计动效</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">在线讨论（EN）</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">云凤蝶 </div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">Aesome Ant Design</div>
+    <div style="text-align:center;height:40px;" class="col-lg-3 col-md-4 col-sm-6 ">AntDO Library : Aure鄖件用</div>
+    <div style="text-align:center;height:40px;position:relative;right:60px;" class=" col-md-4  ">报告 Bug</div>
+    <div style="text-align:center;height:40px;position:relative;right:160px;" class=" col-md-4 ">国内镜像站点 CN</div>
+    <div style="text-align:center;height:40px;position:relative;right:60px;" class=" col-md-4 ">Ant UX-页面逻辑素材</div>
+    <div style="text-align:center;height:40px;position:relative;right:180px;" class=" col-md-4  ">讨论列表</div>
+    <div style="text-align:center;height:40px;position:relative;right:290px;" class=" col-md-4  ">StackOverflow</div>
+    <div style="text-align:center;height:40px;position:relative;left:710px;" class="col-lg-3">SegmentFault</div>
+
+
+</div>
+<div id="yy" style="width:100%;border:solid 1px gray;"></div>
+<div>
+	<button style="background: black;color:white;position:relative;top:30px;left:50px;border-style: none;">English</button>
+	<button style="background: black;color:white;position:relative;top:30px;left:450px;border-style: none;">《蚂蚁金服隐私权政策》</button>
+	<button style="background: black;color:white;position:relative;top:30px;left:480px;border-style: none;">《蚂蚁金服客户权益保障承诺书》</button>
+	<button style="background: black;color:white;position:relative;top:30px;left:500px;border-style: none;">IPC证：浙B2-20100257</button>
+	<button style="background: black;color:white;position:relative;top:30px;left:540px;border-style: none;">Copyright@2017 蚂蚁金融服务集团</button>
+
+
+</div>
+</div>
+</div>
+	</body>
+	 <script src="https://cdn.jsdelivr.cn/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!--加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</html>
